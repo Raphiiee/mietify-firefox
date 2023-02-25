@@ -1,0 +1,14 @@
+.costPerSquareMeter {
+    margin-top: 5px;
+}
+
+.heatingCostPerYear {
+    margin-top: 5px;
+}
+
+.totalRentWithHeatingCostPerMonth {
+    margin-top: 5px;
+    color: #f4511e;
+    font-weight: 650;
+    font-size: 1.10rem;
+}

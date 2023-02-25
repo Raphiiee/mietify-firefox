@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Mietify",
+  "version": "0.0.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com",
+      "strict_min_version": "101.0"
+    }
+  },
+  "description": "Adds more information to real estate website www.willhaben.at.",
+  "icons": {
+    "50": "icons/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.willhaben.at/*"],
+      "js": ["mietify.js"],
+      "css": ["styling.css"]
+    }
+  ]
+}
